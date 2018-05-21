@@ -5,6 +5,8 @@ body {
 	width: 100%;
 	background-image: url(../images/sakura.png);
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
 }
 
 header, h1, h2, h3, h4, h5 {
@@ -42,6 +44,7 @@ p {
 .container {
 	width: 100%;
 	margin: auto;
+	min-height: calc(100vh - 52px);
 }
 
 .backgroundbar {
@@ -100,7 +103,7 @@ nav {
 	
 .lightgray {
 	color: #dddddd;
-	opacity: 0.5;
+
 }
 
 .main {
@@ -111,6 +114,8 @@ nav {
 	margin: auto;
 	padding: 30px;
 	margin-top: 30px;
+
+	/*position: relative;*/
 }
 
 .title {
@@ -121,14 +126,15 @@ nav {
 	margin-bottom: 30px;
 }
 
-footer {
+footer{
 	background-color: #666666;
-	position: fixed;
+	/*position: relative;*/
     bottom: 0px;
     text-align: center;
     width: 100%;
     border-top: 5px solid #4aaaa5;
-    padding-top: 15px
+    padding-top: 15px;
+  
 }
 
 .copyright {
@@ -136,7 +142,7 @@ footer {
 	color: #ffffff;
 }
 
-	/* <------------------ Codes Above are for ALL pages ------> */
+	/* <------------------ Codes Above are for ALL pages ------> 
 
 
 	
@@ -213,9 +219,10 @@ footer {
    	float: left;
 }
 
-#gallery {
+/*#gallery {
 	height: 1200px;
-}
+	height: 100%;
+}*/
 
 div a:hover {
   	opacity: 0.5;
@@ -223,9 +230,8 @@ div a:hover {
 
 #portfolio-container {
 	width: 960px;
-	height: 1200px;
+	height: 1100px;
 
 }
-
 
     /*End of Codes for Portfolio Page*/
